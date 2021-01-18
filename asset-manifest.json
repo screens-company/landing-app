@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.57fbb056.chunk.css",
-    "main.js": "/static/js/main.90694e05.chunk.js",
-    "main.js.map": "/static/js/main.90694e05.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b0cfc470.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b0cfc470.js.map",
-    "static/js/2.1bf0e15f.chunk.js": "/static/js/2.1bf0e15f.chunk.js",
-    "static/js/2.1bf0e15f.chunk.js.map": "/static/js/2.1bf0e15f.chunk.js.map",
-    "static/js/3.331ab8bd.chunk.js": "/static/js/3.331ab8bd.chunk.js",
-    "static/js/3.331ab8bd.chunk.js.map": "/static/js/3.331ab8bd.chunk.js.map",
+    "main.js": "/static/js/main.89795523.chunk.js",
+    "main.js.map": "/static/js/main.89795523.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5e82f950.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5e82f950.js.map",
+    "static/js/2.7fe50737.chunk.js": "/static/js/2.7fe50737.chunk.js",
+    "static/js/2.7fe50737.chunk.js.map": "/static/js/2.7fe50737.chunk.js.map",
+    "static/js/3.1bb3f97c.chunk.js": "/static/js/3.1bb3f97c.chunk.js",
+    "static/js/3.1bb3f97c.chunk.js.map": "/static/js/3.1bb3f97c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.57fbb056.chunk.css.map": "/static/css/main.57fbb056.chunk.css.map",
-    "static/js/2.1bf0e15f.chunk.js.LICENSE.txt": "/static/js/2.1bf0e15f.chunk.js.LICENSE.txt",
+    "static/js/2.7fe50737.chunk.js.LICENSE.txt": "/static/js/2.7fe50737.chunk.js.LICENSE.txt",
     "static/media/about.25e8737a.gif": "/static/media/about.25e8737a.gif",
+    "static/media/aboutOne.f24ec989.svg": "/static/media/aboutOne.f24ec989.svg",
+    "static/media/aboutThree.e04cf1f5.svg": "/static/media/aboutThree.e04cf1f5.svg",
+    "static/media/aboutTwo.3c3d7f71.svg": "/static/media/aboutTwo.3c3d7f71.svg",
     "static/media/access.a85a3749.svg": "/static/media/access.a85a3749.svg",
     "static/media/appsIcon.9b310f43.png": "/static/media/appsIcon.9b310f43.png",
     "static/media/conversationAccess.29c03525.svg": "/static/media/conversationAccess.29c03525.svg",
@@ -24,9 +27,9 @@
     "static/media/technologyIcon.92f233f1.png": "/static/media/technologyIcon.92f233f1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0cfc470.js",
-    "static/js/2.1bf0e15f.chunk.js",
+    "static/js/runtime-main.5e82f950.js",
+    "static/js/2.7fe50737.chunk.js",
     "static/css/main.57fbb056.chunk.css",
-    "static/js/main.90694e05.chunk.js"
+    "static/js/main.89795523.chunk.js"
   ]
 }
