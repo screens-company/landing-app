@@ -5,11 +5,12 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
   width: 100%;
+  background-color: rgba(0, 0 , 255, 0.2);
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
-    padding: 200px 100px;
+    padding: 150px 100px;
     align-items: center;
     justify-content: space-between;
   }
@@ -74,6 +75,7 @@ export const ItemText = styled.div`
   color: rgba(0,0,0,1);
   line-height: 20px;
   font-weight: bold;
+  padding-top: 10px;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
     text-align: center;

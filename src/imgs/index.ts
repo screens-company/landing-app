@@ -8,6 +8,9 @@ import appsIcon from './appsIcon.png';
 import securityBlock from './securityBlock.svg';
 import securityData from './securityData.svg';
 import technologyIcon from './technologyIcon.png';
+import aboutOne from './aboutOne.svg';
+import aboutTwo from './aboutTwo.svg';
+import aboutThree from './aboutThree.svg';
 
 export const images = {
   logo,
@@ -20,4 +23,7 @@ export const images = {
   securityBlock,
   securityData,
   technologyIcon,
+  aboutOne,
+  aboutTwo,
+  aboutThree,
 };

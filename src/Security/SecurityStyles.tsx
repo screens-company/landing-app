@@ -5,10 +5,11 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
+  background-color: rgba(0,255,0,0.2);
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
-    padding: 200px 100px;
+    padding: 150px 100px;
   }
 `;
 

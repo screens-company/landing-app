@@ -6,10 +6,10 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
-    padding: 200px 100px;
+    padding: 150px 100px;
   }
 `;
 

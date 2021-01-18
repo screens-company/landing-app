@@ -4,10 +4,10 @@ import {mediaQueries} from "../constants";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 100px 20px;
+  padding: 80px 20px;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
-    padding: 200px 100px;
+    padding: 150px 100px;
     flex-direction: row;
     align-items: center;
   }
