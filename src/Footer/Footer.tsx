@@ -10,12 +10,12 @@ export function Footer() {
   return (
     <Wrapper>
       <Items>
-        <ItemsTitle>Legal</ItemsTitle>
-        <Item>Terms of Service</Item>
-        <Item>Privacy Policy</Item>
+        <ItemsTitle>Документы</ItemsTitle>
+        <Item>Политика конфиденциальности</Item>
+        <Item>Условия пользования сайтом</Item>
       </Items>
       <Items>
-        <ItemsTitle>Contacts</ItemsTitle>
+        <ItemsTitle>Контакты</ItemsTitle>
         <Item>myscreensapp@gmail.com</Item>
       </Items>
     </Wrapper>

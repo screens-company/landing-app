@@ -3,15 +3,17 @@ import {mediaQueries} from "../constants";
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: 170px;
+  height: 230px;
   background-color: blue;
   display: flex;
+  flex-direction: column;
   padding: 0 20px;
   position: relative;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
     padding: 0 100px;
     height: 150px;
+    flex-direction: row;
   }
 `;
 
