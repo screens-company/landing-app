@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   padding: 80px 20px;
   width: 100%;
-  background-color: rgba(0, 0 , 255, 0.2);
+  background-color: #fafafa;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
     padding: 150px 100px;

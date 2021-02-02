@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 80px 20px;
-  background-color: rgba(0,255,0,0.2);
+  background-color: #fafafa;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
     padding: 150px 100px;
