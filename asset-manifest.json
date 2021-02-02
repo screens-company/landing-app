@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.57fbb056.chunk.css",
-    "main.js": "/static/js/main.a1340985.chunk.js",
-    "main.js.map": "/static/js/main.a1340985.chunk.js.map",
+    "main.js": "/static/js/main.d9c4f8e6.chunk.js",
+    "main.js.map": "/static/js/main.d9c4f8e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5e82f950.js",
     "runtime-main.js.map": "/static/js/runtime-main.5e82f950.js.map",
     "static/js/2.7fe50737.chunk.js": "/static/js/2.7fe50737.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/aboutThree.e04cf1f5.svg": "/static/media/aboutThree.e04cf1f5.svg",
     "static/media/aboutTwo.3c3d7f71.svg": "/static/media/aboutTwo.3c3d7f71.svg",
     "static/media/access.a85a3749.svg": "/static/media/access.a85a3749.svg",
-    "static/media/appsIcon.9b310f43.png": "/static/media/appsIcon.9b310f43.png",
+    "static/media/appsIcon.2c11fc4d.png": "/static/media/appsIcon.2c11fc4d.png",
     "static/media/conversationAccess.29c03525.svg": "/static/media/conversationAccess.29c03525.svg",
     "static/media/conversationApp.e6992666.svg": "/static/media/conversationApp.e6992666.svg",
     "static/media/conversationSearch.5548be96.svg": "/static/media/conversationSearch.5548be96.svg",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.5e82f950.js",
     "static/js/2.7fe50737.chunk.js",
     "static/css/main.57fbb056.chunk.css",
-    "static/js/main.a1340985.chunk.js"
+    "static/js/main.d9c4f8e6.chunk.js"
   ]
 }
