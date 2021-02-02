@@ -5,6 +5,9 @@ import {
   Image,
   Title,
   Description,
+  Button,
+  MobileButtonWrapper,
+  DesktopButtonWrapper,
 } from "./AboutAppStyles";
 import {images} from "../imgs";
 
@@ -45,10 +48,16 @@ export class AboutApp extends React.PureComponent {
           <Description>
             Вашим пользователям нужна помощь, но вы не видите их действий на веб-сайте? Screens позволяет видеть и управлять экраном клиента без дополнительных настроек. Сделайте поддержку своих клиентов проще, быстрее и эффективнее.
           </Description>
+          <DesktopButtonWrapper>
+            <Button>Запросить демо</Button>
+          </DesktopButtonWrapper>
         </Text>
         <Image
           src={this.getImageUrl(picture)}
         />
+        <MobileButtonWrapper>
+          <Button>Запросить демо</Button>
+        </MobileButtonWrapper>
       </Wrapper>
     );
   }

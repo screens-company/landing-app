@@ -43,3 +43,40 @@ export const Image = styled.img`
     margin: 0 0 0 50px;
   }
 `;
+
+export const MobileButtonWrapper = styled.div`
+  display: flex;
+  margin-top: 120px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  @media screen and (min-width: ${mediaQueries.desktop}px) {
+    display: none;
+    margin: 0;
+  }
+`;
+
+export const DesktopButtonWrapper = styled.div`
+  display: none;
+  margin: 0;
+  
+  @media screen and (min-width: ${mediaQueries.desktop}px) {
+    display: block;
+    margin-top: 50px;
+  }
+`;
+
+export const Button = styled.div`
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: blue;
+`;
