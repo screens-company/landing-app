@@ -8,6 +8,7 @@ import {
   Button,
   MobileButtonWrapper,
   DesktopButtonWrapper,
+  Link,
 } from "./AboutAppStyles";
 import {images} from "../imgs";
 
@@ -49,14 +50,18 @@ export class AboutApp extends React.PureComponent {
             Вашим пользователям нужна помощь, но вы не видите их действий на веб-сайте? Screens позволяет видеть и управлять экраном клиента без дополнительных настроек. Сделайте поддержку своих клиентов проще, быстрее и эффективнее.
           </Description>
           <DesktopButtonWrapper>
-            <Button>Запросить демо</Button>
+            <Link href="mailto:myscreensapp@gmail.com">
+              <Button>Запросить демо</Button>
+            </Link>
           </DesktopButtonWrapper>
         </Text>
         <Image
           src={this.getImageUrl(picture)}
         />
         <MobileButtonWrapper>
-          <Button>Запросить демо</Button>
+          <Link href="mailto:myscreensapp@gmail.com">
+            <Button>Запросить демо</Button>
+          </Link>
         </MobileButtonWrapper>
       </Wrapper>
     );
