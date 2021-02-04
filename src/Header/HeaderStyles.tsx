@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0 20px;
   background: white;
+  z-index: 1;
   
   @media screen and (min-width: ${mediaQueries.desktop}px) {
     padding: 0 100px;

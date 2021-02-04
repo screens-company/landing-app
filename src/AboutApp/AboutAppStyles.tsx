@@ -80,8 +80,3 @@ export const Button = styled.div`
   border-radius: 6px;
   background-color: blue;
 `;
-
-export const Link = styled.a`
-  text-decoration: none;
-  color: blue;
-`;

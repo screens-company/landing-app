@@ -7,15 +7,23 @@ import {
 } from "./HeaderStyles";
 import {images} from "../imgs";
 
-export function Header() {
-  return (
-    <Wrapper>
-      <Link href="/">
-        <Logo src={images.logo}/>
-      </Link>
-      <Link href="mailto:myscreensapp@gmail.com">
-        <Button>Запросить демо</Button>
-      </Link>
-    </Wrapper>
-  );
+interface IOwnProps {
+  contactFormHandler: (payload: boolean) => void;
+}
+
+interface IProps extends IOwnProps {}
+
+export class Header extends React.PureComponent<IProps> {
+  render() {
+    const {contactFormHandler} = this.props;
+
+    return (
+      <Wrapper>
+        <Link href="/">
+          <Logo src={images.logo}/>
+        </Link>
+        <Button onClick={() => contactFormHandler(true)}>Запросить демо</Button>
+      </Wrapper>
+    );
+  }
 }
