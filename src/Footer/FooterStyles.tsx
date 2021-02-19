@@ -39,3 +39,12 @@ export const Item = styled.div`
   padding: 5px 0;
   cursor: pointer;
 `;
+
+export const ItemEmail = styled(Item)`
+  cursor: default;
+`;
+
+export const Link = styled.a`
+  color: white;
+  text-decoration: none;
+`;
